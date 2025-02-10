@@ -1,36 +1,51 @@
 import React from 'react';
 import Logo from '../images/Logo.svg';
 import { Link } from "react-router-dom";
+import './Header.css';
 
 export default function Header() {
     return (
-        <section>
+        <section className={"container"}>
             <div>
                 <img src={Logo} alt=""/>
             </div>
             <div>
                 <nav>
-                    <ul>
-                        <li>
-                            <Link to="/">Home</Link>
+                    <ul className={"menu"}>
+                        <li className={"menu-item"}>
+                            <h3>
+                                <Link to="/">Home</Link>
+                            </h3>
                         </li>
-                        <li>
-                            <Link to="/about">About</Link>
+                        <li className={"menu-item"}>
+                            <h3>
+                                <Link to="/about">About</Link>
+                            </h3>
                         </li>
-                        <li>
-                            <Link to="/contact">Menu</Link>
+                        <li className={"menu-item"}>
+                            <h3>
+                                <Link to="/contact">Menu</Link>
+                            </h3>
                         </li>
-                        <li>
-                            <Link to="/">Reservations</Link>
+                        <li className={"menu-item"}>
+                            <h3>
+                                <Link to="/">Reservations</Link>
+                            </h3>
                         </li>
-                        <li>
-                            <Link to="/about">Order Online</Link>
+                        <li className={"menu-item"}>
+                            <h3>
+                                <Link to="/about">Order Online</Link>
+                            </h3>
                         </li>
-                        <li>
-                            <Link to="/contact">Login</Link>
+                        <li className={"menu-item"}>
+                            <h3>
+                                <Link to="/contact">Login</Link>
+                            </h3>
                         </li>
                     </ul>
                 </nav>
+            </div>
+            <div>
             </div>
 
         </section>
