@@ -14,12 +14,15 @@ function App() {
           <meta name="og:littleLemon" content={Logo}/>
           <meta name="og:description" content="My restaurant"/>
           <meta name="og:image" content=""/>
-          <Header></Header>
-          <Banner></Banner>
-          <Specials></Specials>
-          <Testimonials></Testimonials>
-          <AboveFooter></AboveFooter>
-          <Footer></Footer>
+          <section className="app-section">
+              <Header></Header>
+              <Banner></Banner>
+              <Specials></Specials>
+              <Testimonials></Testimonials>
+              <AboveFooter></AboveFooter>
+              <Footer></Footer>
+          </section>
+
       </div>
   );
 }

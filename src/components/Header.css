@@ -1,17 +1,19 @@
-.container {
+.header-section {
     display: flex;
     flex-direction: row;
-    padding: 20px;
+    margin-bottom: 0;
     justify-content: space-between;
+    text-align: center;
+    align-items: center;
 }
 
-.menu {
+.header-menu {
     display: flex;
     flex-direction: row;
     list-style: none;
 }
 
-.menu-item {
+.header-menu-item {
     padding-left: 20px;
 }
 

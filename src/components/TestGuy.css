@@ -1,0 +1,31 @@
+.testGuy-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-left: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+.testGuy-title {
+    font-size: 20px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.testGuy-person {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.testGuy-img {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    margin-right: 15px;
+}

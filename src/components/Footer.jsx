@@ -1,11 +1,11 @@
 import React from 'react';
 import Logo from '../images/Logo.svg';
 import {Link} from "react-router-dom";
+import './Footer.css';
 
 export default function Footer() {
     return (
-        <section>
-            <footer>
+        <section className="fo-section">
                 <div>
                     <img src={Logo} alt="Logo"/>
                 </div>
@@ -50,7 +50,6 @@ export default function Footer() {
                         </ul>
                     </nav>
                 </div>
-            </footer>
         </section>
     );
 }

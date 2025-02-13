@@ -5,41 +5,41 @@ import './Header.css';
 
 export default function Header() {
     return (
-        <section className={"container"}>
+        <section className={"header-section"}>
             <div>
                 <img src={Logo} alt=""/>
             </div>
             <div>
                 <nav>
-                    <ul className={"menu"}>
-                        <li className={"menu-item"}>
+                    <ul className={"header-menu"}>
+                        <li className={"header-menu-item"}>
                             <h3>
                                 <Link to="/">Home</Link>
                             </h3>
                         </li>
-                        <li className={"menu-item"}>
+                        <li className={"header-menu-item"}>
                             <h3>
                                 <Link to="/about">About</Link>
                             </h3>
                         </li>
-                        <li className={"menu-item"}>
+                        <li className={"header-menu-item"}>
                             <h3>
-                                <Link to="/contact">Menu</Link>
+                                <Link to="/menu">Menu</Link>
                             </h3>
                         </li>
-                        <li className={"menu-item"}>
+                        <li className={"header-menu-item"}>
                             <h3>
-                                <Link to="/">Reservations</Link>
+                                <Link to="/reservations">Reservations</Link>
                             </h3>
                         </li>
-                        <li className={"menu-item"}>
+                        <li className={"header-menu-item"}>
                             <h3>
-                                <Link to="/about">Order Online</Link>
+                                <Link to="/order-online">Order Online</Link>
                             </h3>
                         </li>
-                        <li className={"menu-item"}>
+                        <li className={"header-menu-item"}>
                             <h3>
-                                <Link to="/contact">Login</Link>
+                                <Link to="/login">Login</Link>
                             </h3>
                         </li>
                     </ul>
