@@ -20,16 +20,16 @@ export default function Footer() {
                                 <Link to="/about">About</Link>
                             </li>
                             <li>
-                                <Link to="/contact">Menu</Link>
+                                <Link to="/menu">Menu</Link>
                             </li>
                             <li>
-                                <Link to="/">Reservations</Link>
+                                <Link to="/reservations">Reservations</Link>
                             </li>
                             <li>
-                                <Link to="/about">Order Online</Link>
+                                <Link to="/order-online">Order Online</Link>
                             </li>
                             <li>
-                                <Link to="/contact">Login</Link>
+                                <Link to="/login">Login</Link>
                             </li>
                         </ul>
                     </nav>

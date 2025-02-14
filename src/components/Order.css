@@ -1,0 +1,64 @@
+.order-section {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 650px;
+}
+
+.order-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 230px;
+    background-color: black;
+    color: white;
+}
+
+.order-form-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: url("../images/restaurant.jpg") no-repeat center center fixed;
+    height: 100%;
+}
+
+.reservation-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 20%;
+    height: 440px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 300px;
+}
+
+.form-row {
+    display: flex;
+    gap: 1rem;
+}
+
+.submit-btn {
+    background: #ff6b6b;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    transition: background 0.3s ease;
+    width: 300px;
+}

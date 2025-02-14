@@ -1,30 +1,20 @@
-import './App.css';
-import AboveFooter from "./components/AboveFooter.jsx";
-import Banner from "./components/Banner";
-import Footer from "./components/Footer";
+import React from "react";
+import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
-import Specials from "./components/Specials";
-import Testimonials from "./components/Testimonials";
-import Logo from "./images/Logo.svg";
+import Footer from "./components/Footer";
+import HomeScreen from "./Screens/HomeScreen";
+import OrderScreen from "./Screens/OrderScreen";
 
-function App() {
-  return (
-      <div className="App">
-          <meta name="description" content="My restaurant"/>
-          <meta name="og:littleLemon" content={Logo}/>
-          <meta name="og:description" content="My restaurant"/>
-          <meta name="og:image" content=""/>
-          <section className="app-section">
-              <Header></Header>
-              <Banner></Banner>
-              <Specials></Specials>
-              <Testimonials></Testimonials>
-              <AboveFooter></AboveFooter>
-              <Footer></Footer>
-          </section>
 
-      </div>
-  );
+export default function App() {
+    return (
+        <>
+            <Header />
+            <Routes>
+                <Route path="/" element={<HomeScreen />} />
+                <Route path="/reservations" element={<OrderScreen />} />
+            </Routes>
+            <Footer />
+        </>
+    );
 }
-
-export default App;
